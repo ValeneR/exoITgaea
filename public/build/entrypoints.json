@@ -1,0 +1,24 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_axios_index_js-node_modules_core-js_modules_es_array_map_js-node_modules-39f2f2.js",
+        "/build/app.js"
+      ],
+      "css": [
+        "/build/app.css"
+      ]
+    },
+    "client": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_axios_index_js-node_modules_core-js_modules_es_array_map_js-node_modules-39f2f2.js",
+        "/build/client.js"
+      ],
+      "css": [
+        "/build/client.css"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Symfony-React Project{% endblock %}
+
+{% block stylesheets %}
+    {{ encore_entry_link_tags('client') }}
+{% endblock %}
+
+{% block body %}
+    <div id="client" data-id="{{id}}"></div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('client') }}
+
+   {# <script>
+        window.REP_LOG_APP_PROPS = {
+            id = {id}
+        }
+    </script> #}
+
+{% endblock %}

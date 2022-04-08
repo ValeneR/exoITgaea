@@ -1,0 +1,52 @@
+.row-section {
+    float:left; 
+    width:100%; 
+    background: #88b0c7;  /* fallback for old browsers */
+}
+
+.row-section h2 {
+    float:left; 
+    width:100%; 
+    color:#fff; 
+    margin-bottom:30px; 
+    font-size: 14px;
+}
+
+.row-section h2 span {
+    font-family: 'Libre Baskerville', serif; 
+    display:block; 
+    font-size:45px; 
+    text-transform:none; 
+    margin-bottom:20px; 
+    margin-top:30px;
+    font-weight:700;
+}
+
+.btn-default {
+    background:#1e1d66; 
+    color:#fff; 
+    border-radius:30px;
+    border:none; 
+    font-size:16px;
+    width: 100%;
+}
+
+body {
+    background-color: #88b0c7;
+}
+
+.client-href {
+    color: black;
+}
+
+.modal {
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    width: 300px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    margin: auto;
+    z-index: 10000;
+}
